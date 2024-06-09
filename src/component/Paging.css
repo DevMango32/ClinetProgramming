@@ -1,0 +1,53 @@
+.pagination {
+  display: flex; justify-content: center;
+  margin-top: 15px;
+ }
+ ul {
+  list-style: none; padding: 0;
+ }
+ ul.pagination li {
+  display: inline-block;
+  width: 30px; height: 30px;
+  border-right: 1px solid #e2e2e2; border-top: 1px solid #e2e2e2; border-bottom: 1px solid #e2e2e2;
+  display: flex;
+  justify-content: center; align-items: center;
+  font-size: 1rem;
+ }
+ ul.pagination li:first-child{
+  border-left: 1px solid #e2e2e2; border-radius: 5px 0 0 5px;
+ }
+ ul.pagination li:last-child{
+  border-radius: 0 5px 5px 0;
+ }
+ ul.pagination li a {
+  text-decoration: none; color: #337ab7; font-size: 1rem;
+ }
+ ul.pagination li.active a {
+  color: white;
+ }
+ ul.pagination li.active {
+  background-color: #337ab7;
+ }
+ ul.pagination li a:hover, ul.pagination li a.active {
+  color: blue;
+ }
+ .page-selection {
+  width: 48px; height: 30px; color: #337ab7;
+ }
+
+ .custom-button {
+  background-color: #b094e6;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.375rem 0.75rem; /* Bootstrap button padding */
+  font-size: 1rem; /* Bootstrap button font size */
+  color: #fff; /* Text color */
+  border-radius: 0.25rem; /* Bootstrap button border radius */
+  display: inline-flex; /* To ensure alignment with icons */
+  align-items: center; /* Center icon vertically */
+  justify-content: center; /* Center icon horizontally */
+}
+
+
+ 
